@@ -80,6 +80,7 @@
     width: 20px;
     margin-right: 10px;
     margin-left: 5px;
+    
 }
 
 .singleTaskTitle{
@@ -87,4 +88,49 @@
     width: 50vw;
     border: 0px;
     font-size: 14pt;
+}
+
+.addTaskButton{
+    height: 3vh;
+    width: 8vh;
+    margin-top: 1%;
+    
+}
+
+.underTask{
+    border: 2px solid cyan;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toDoListName{
+    height: 50px;
+    width: 300px;
+    border: 2px solid;
+    text-align: end;
+    
+}
+
+.leftSide{
+    display: flex;
+    border: 2px solid purple;
+    width: 300px;
+}
+
+.timeText{
+    border: 1px solid;
+    margin: 0px;
+    width: 80px;
+}
+.recurringImg{
+    width: 10px;
+    height: 10px;
+    border: 1px solid;
+}
+
+.clockImg{
+    border: 1px solid;
+    width: 10px;
+    height: 10px;
 }
